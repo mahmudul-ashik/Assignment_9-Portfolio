@@ -1,0 +1,29 @@
+@media(max-width: 1199px){
+
+}
+@media(max-width: 991px){
+.navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: center;
+     }
+     .navbar-light .navbar-nav .nav-link {
+    
+    font-size: 17px;
+
+    padding: 20px 30px;
+}
+}
+@media(max-width: 767px){
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    padding: 19px 19px;}
+    .banner-content h2 {
+    font-size: 50px;}
+}
+@media(max-width: 575px){
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    padding: 16px 10px;
+}
+}
